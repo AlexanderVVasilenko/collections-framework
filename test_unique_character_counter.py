@@ -2,11 +2,11 @@ from collections import Counter
 
 
 class UniqueCharacterCounter:
-    def __init__(self):
+    def __init__(self) -> None:
         # Cache to store results for previously encountered strings
         self.cache = {}
 
-    def count_unique_characters(self, input_string):
+    def count_unique_characters(self, input_string: str) -> int:
         if input_string in self.cache:
             # Retrieve the result from the cache
             return self.cache[input_string]
@@ -21,7 +21,7 @@ class UniqueCharacterCounter:
 
 
 # Tests using pytest
-def test_count_unique_characters():
+def test_count_unique_characters() -> None:
     counter = UniqueCharacterCounter()
 
     # Test 1
