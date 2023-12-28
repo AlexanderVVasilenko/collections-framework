@@ -1,7 +1,7 @@
 import argparse
 from typing import Callable
 
-from src.package_vas1505.unique_character_counter import UniqueCharacterCounter
+from package_vas1505.unique_character_counter import UniqueCharacterCounter
 
 
 def main(count_characters: Callable) -> None:
