@@ -1,0 +1,23 @@
+[project]
+name = "package_vas1505"
+version = "0.0.1"
+authors = [
+  { name="Oleksandr Vasylenko", email="alexander_vasilenko@outlook.com" },
+]
+maintainers = [
+  { name="Vit Melnychuk", email="playersoft1999@gmail.com" },
+]
+description = '''The package_vas1505 package provides a Python module with the UniqueCharacterCounter class for
+efficiently counting the number of unique characters in a string, featuring a caching mechanism for optimized
+performance.'''
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/AlexanderVVasilenko/collections-framework"
+Issues = "https://github.com/AlexanderVVasilenko/collections-framework/issues"
