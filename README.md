@@ -48,3 +48,11 @@ Output:
 ```javascript
 Number of unique characters in the file: 20
 ```
+
+### Running Tests
+You can run the tests using pytest. Open a terminal and navigate to your project directory, then run the following command:
+
+```bash
+pytest tests/test_unique_character_counter.py
+```
+Make sure to replace "your_string_here" with an actual string you want to count and provide a valid path to a text file in the file example.
