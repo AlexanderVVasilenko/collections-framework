@@ -1,7 +1,6 @@
 from src.package_vas1505.unique_character_counter import UniqueCharacterCounter
 
 
-# Tests using pytest
 def test_count_unique_characters() -> None:
     counter = UniqueCharacterCounter()
 
@@ -18,5 +17,4 @@ def test_count_unique_characters() -> None:
     assert result3 == 3
 
 # Run the tests with pytest
-# Save this code in a file (e.g., test_unique_character_counter.py) and run:
-# pytest test_unique_character_counter.py
+# pytest tests\test_unique_character_counter.py
