@@ -6,6 +6,10 @@ The `package_vas1505` package is a Python module that includes the `UniqueCharac
 
 Clone the repository and include the `package_vas1505` directory in your project. Import the `UniqueCharacterCounter` class to start using the unique character counting functionality.
 
+```bash
+py -m pip install --index-url https://test.pypi.org/simple --no-deps package-vas1505
+```
+
 ```python
 from package_vas1505.unique_character_counter import UniqueCharacterCounter
 
